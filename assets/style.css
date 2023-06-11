@@ -1,85 +1,127 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
 body{
+    display: flex;
+    flex-direction: column;
     background-color: #4D004D;
     color: #fff;
+    line-height: 1.5;
  }
-
-
-img{
-    border-radius: 100%;
-    position: static;
-    top: 0;
-    left: 0;
- }
-
-li{
-    display: inline;
-    padding: 0 20px;
-    text-decoration: none;
-    justify-content: space-between;
-    min-width: 300px;
-    font-size: 20px;
-}
-
-a{
-    color: #fff;
-}
 
 header{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 1%;
     background-color: #D540D5;
+    color: #fff;
+ }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+   /* min-width: 300px; */
+
 }
-.work {
+
+li{
+    margin-left: 10px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+figure{
+    border: 5px #DFAADF solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    background-color: #fff;
+
+}
+
+#work img{
+    height: 100%;
+    width: 100%;
+}
+
+figcaption{
+    background-color: #DFAADF;
+    color: #fff;
+    border: 3px #000 solid;
+    text-align: center;
+}
+#work{
     /* Turns this element into a flexbox */
     display: flex;
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     margin-top: 10%;
-}
 
+}
+#word-header{
+    padding: 20px;
+    margin-right: 10px;
+    border-spacing: 10px;
+    border-right: solid;
+    border-color: #fff;
+}
 #first-work {
-    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0 80%;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+  }
+.other-projects {
+    flex-wrap: wrap;
     flex: 1 1 200px;
     padding: 10px;
     width: 250px;
     text-align: center;
-  }
-.other-projects {
-    display: flex;
-    flex: 0 1 200px;
-    padding: 10px;
-    width: 250px;
-    text-align: center;
+    padding: 20px;
+    border-style: solid;
   }
 .text-right{
     text-align: right;
 }
 
 .text-center{
-    text-align: center;
+    text-align: justify;
 }
 
+#headShot{
+    border-radius: 100%;
+    position: initial;
+    padding-right: 10px
+    
+}
 
-#about-me,
-#work,
-#contact-me{
+#contact-me li{
+    padding: 2%;
+}
+
+footer{
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    border-style: solid;
-    border-width: 3px;
-    margin: 5% auto;
+    justify-content:center;
+    padding: 2%;
 }
 
-#about-me h2,
-#work h2,
-#contact-me h2{
-    padding: 20px;
-    background: #cc00cc;
-    color: #fff;
-    margin: 2px;
+
+@media screen and (max-width: 750px){
+    header{
+        flex-direction: column;
+    }
+
+    main, aside{
+        max-width: 1100px;
+    }
 }
