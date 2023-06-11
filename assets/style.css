@@ -33,6 +33,7 @@ main{
 p{
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 nav ul, #contact-me ul{
@@ -42,11 +43,13 @@ nav ul, #contact-me ul{
 
 }
 
+
+
 li, #contact-me li{
     margin-left: 10px;
 }
 
-nav a, #contact-me a{
+nav a, #contact-me a, figcaption a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
