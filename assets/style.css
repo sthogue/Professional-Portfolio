@@ -1,3 +1,127 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
 body{
-            font-size: 16px;
-        }
+    display: flex;
+    flex-direction: column;
+    background-color: #4D004D;
+    color: #fff;
+    line-height: 1.5;
+ }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1%;
+    background-color: #D540D5;
+    color: #fff;
+ }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+   /* min-width: 300px; */
+
+}
+
+li{
+    margin-left: 10px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+figure{
+    border: 5px #DFAADF solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    background-color: #fff;
+
+}
+
+#work img{
+    height: 100%;
+    width: 100%;
+}
+
+figcaption{
+    background-color: #DFAADF;
+    color: #fff;
+    border: 3px #000 solid;
+    text-align: center;
+}
+#work{
+    /* Turns this element into a flexbox */
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 10%;
+
+}
+#word-header{
+    padding: 20px;
+    margin-right: 10px;
+    border-spacing: 10px;
+    border-right: solid;
+    border-color: #fff;
+}
+#first-work {
+    flex-wrap: wrap;
+    flex: 2 0 80%;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+  }
+.other-projects {
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+  }
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: justify;
+}
+
+#headShot{
+    border-radius: 100%;
+    position: initial;
+    padding-right: 10px
+    
+}
+
+#contact-me li{
+    padding: 2%;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    padding: 2%;
+}
+
+
+@media screen and (max-width: 750px){
+    header{
+        flex-direction: column;
+    }
+
+    main, aside{
+        max-width: 1100px;
+    }
+}
