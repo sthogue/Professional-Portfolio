@@ -52,6 +52,19 @@ nav ul,
 
 }
 
+li, 
+#contact-me li{
+    margin-left: 10px;
+}
+
+figcaption a,
+nav a,
+#contact-me a{
+    color: var(--textColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 figure{
     border: 5px #C4FF6E solid;
