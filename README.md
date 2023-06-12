@@ -10,7 +10,7 @@ It highlights my current work as a student in a Web design and coding Bootcamp.
 The top of the navigation bar, you have nav links to the about me, works, and contact me section within the page. There are two external links that will take the user to my current resume and LinkedIn profile. 
 
 ## Screenshot of Portfolio
-
+![Screenshot of deployed portfolio page](/assets/img/Screenshot%20of%20Deployed%20Page.png)
 
 
 ## Credit
