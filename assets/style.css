@@ -41,6 +41,7 @@ main{
 p{
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 nav ul, 
@@ -49,19 +50,6 @@ nav ul,
     list-style: none;
     justify-content:space-between;
 
-}
-
-li, 
-#contact-me li{
-    margin-left: 10px;
-}
-
-figcaption a,
-nav a,
-#contact-me a{
-    color: var(--textColor);
-    text-decoration: none;
-    font-weight: bold;
 }
 
 
