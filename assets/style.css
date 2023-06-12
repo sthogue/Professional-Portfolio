@@ -1,3 +1,11 @@
+:root{
+    --navLinkColor: #fff;
+    --headerFooter:#381E10;
+    --headerFooterSmall: #459451;
+    --textColor:#fff;
+    --textColorSmall: #000;
+}
+
 *{
     font-family:Arial, Helvetica, sans-serif;
 
@@ -5,8 +13,8 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #4D004D;
-    color: #fff;
+    background-color: #211508;
+    color: var(--textColor);
     line-height: 1.5;
  }
 
@@ -15,8 +23,8 @@ header{
     justify-content: space-between;
     align-items:center;
     padding: 1%;
-    background-color: #D540D5;
-    color: #fff;
+    background-color: var(--headerFooter);
+    color: var(--textColor);
  }
 
 h2{
@@ -36,7 +44,8 @@ p{
 
 }
 
-nav ul, #contact-me ul{
+nav ul, 
+#contact-me ul{
     display: flex;
     list-style: none;
     justify-content:space-between;
@@ -44,20 +53,8 @@ nav ul, #contact-me ul{
 }
 
 
-
-li, #contact-me li{
-    margin-left: 10px;
-}
-
-nav a, #contact-me a, figcaption a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
 figure{
-    border: 5px #DFAADF solid;
+    border: 5px #C4FF6E solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -67,13 +64,15 @@ figure{
 }
 
 figcaption{
-    background-color: #DFAADF;
-    color: #fff;
+    /*adds captions to all the screenshots of work */
+    background-color: #459451;
+    color: #000;
     border: 3px #000 solid;
     text-align: center;
 }
 
-#first-work {
+#first-work { 
+    /* special formatting for first work */
     flex: 2 1 700px;
     text-align: center;
     padding: 10px;
@@ -81,6 +80,7 @@ figcaption{
     justify-content: space-evenly;
   }
 .other-projects {
+    /* formatting for all other work */
     flex: 1 1 300px;
     padding: 10px;
     width: 250px;
@@ -90,6 +90,7 @@ figcaption{
   }
 
 #headShot{
+    /* formatting for head shot photo */
     border-radius: 100%;
     position: initial;
     padding-right: 10px
@@ -102,6 +103,7 @@ figcaption{
 
 }
 #work img{
+    /* formats screenshot images of work */
     height: 100%;
     width: 100%;
 }
@@ -112,13 +114,17 @@ figcaption{
 }
 
 footer{
-    background-color: #D540D5;
+    background-color: var(--headerFooter);
 }
 footer h3{
     text-align: center;
 }
 
+footer ul{
+    padding: 0;
+}
 
+/* start of responsive formatting depending on screen size */ 
 @media screen and (max-width: 750px){
     header{
         flex-direction: column;
@@ -129,8 +135,8 @@ footer h3{
     }
 
     header{
-        background-color: #DFAADF;
-        color: #4D004D;
+        background-color: var(--headerFooterSmall);
+        color: var(--textColorSmall);
     }
 
     nav ul{
@@ -140,16 +146,16 @@ footer h3{
 
     nav li{
 
-        border-bottom: solid #4D004D;
+        border-bottom: solid var(--textColorSmall);
     }
 
     nav a{
-        color: #4D004D;
+        color: var(--textColorSmall);
     }
     #headShot{
         height: auto;
         border-radius: 0;
-        border-bottom: solid #fff;
+        border-bottom: solid #000;
         padding-bottom: 10px;
         padding-right: 0px
     }
