@@ -17,3 +17,7 @@ The top of the navigation bar, you have nav links to the about me, works, and co
 I used WAVE - Web Accessability Evaluation Tool [https://wave.webaim.org/] to ensure the contrast between colors meets AAA standards
 
 Complementary colors were chosen with the help of Adobe color [https://color.adobe.com] 
+
+Starter code was provided by the HTML boilerplate VS Code extension. [https://marketplace.visualstudio.com/items?itemName=Vaisrav.samplext]
+
+Inspiration was brought on by the EdX in class activities and examples. 
