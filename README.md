@@ -14,11 +14,11 @@ The top of the navigation bar, you have nav links to the about me, works, and co
 
 
 ## Credit
-I used WAVE - Web Accessability Evaluation Tool [https://wave.webaim.org/] to ensure the contrast between colors meets AAA standards
+I used WAVE - Web Accessability Evaluation Tool (https://wave.webaim.org/) to ensure the contrast between colors meets AAA standards
 
-Complementary colors were chosen with the help of Adobe color [https://color.adobe.com] 
+Complementary colors were chosen with the help of Adobe color (https://color.adobe.com) 
 
-Starter code was provided by the HTML boilerplate VS Code extension. [https://marketplace.visualstudio.com/items?itemName=Vaisrav.samplext]
+Starter code was provided by the HTML boilerplate VS Code extension. (https://marketplace.visualstudio.com/items?itemName=Vaisrav.samplext)
 
 Inspiration was brought on by the EdX in class activities and examples.
 
@@ -26,6 +26,6 @@ Inspiration was brought on by the EdX in class activities and examples.
 
 Screenshots of the Bootcamp Pre-work, Horiseon Refractor and Professional Portfolio are of my own. 
 
-The JavaScript Logo was found in the Creative Commons under public domain. [https://openverse.org/image/3dcef382-694c-4041-82c2-f6e8527ec7d1?q=JavaScript] "javascript" by davidconsuegra is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse.
+The JavaScript Logo was found in the Creative Commons under public domain. (https://openverse.org/image/3dcef382-694c-4041-82c2-f6e8527ec7d1?q=JavaScript) "javascript" by davidconsuegra is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse.
 
-The placeholder images are from [https://placehold.co/]
+The placeholder images are from (https://placehold.co/)
